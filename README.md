@@ -1,0 +1,1 @@
+This is a real time chat application, made by using node.js and socket.js
