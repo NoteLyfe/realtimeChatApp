@@ -6,6 +6,7 @@ const io = require('socket.io')(8000, {
       origin: 'http://127.0.0.1:5500',
     }
   });
+ const port = process.env.PORT; 
 
 const users = {};
 
